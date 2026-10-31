@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base.xml"/>
+  <project name="V-Sekai-fire/transport-meshing-pen" path="1-transport/meshing-pen"/>
+  <project name="V-Sekai-fire/ggml" path="2-contract/ggml"/>
+  <project name="V-Sekai-fire/contract-ggml-rd" path="2-contract/ggml-rd"/>
+  <project name="V-Sekai-fire/contract-guest-common" path="2-contract/guest-common"/>
+  <project name="V-Sekai-fire/contract-guest-runtime" path="2-contract/guest-runtime"/>
+  <project name="V-Sekai-fire/contract-lean-slang" path="2-contract/lean-slang"/>
+  <project name="V-Sekai-fire/cloth-fit" path="3-interactor/cloth-fit"/>
+  <project name="V-Sekai-fire/interactor-curvenet" path="3-interactor/curvenet"/>
+  <project name="V-Sekai-fire/interactor-garment-fit" path="3-interactor/garment-fit"/>
+  <project name="V-Sekai-fire/interactor-lasso" path="3-interactor/lasso"/>
+  <project name="V-Sekai-fire/interactor-usd-guest" path="3-interactor/usd-guest"/>
+  <project name="V-Sekai-fire/repository-riscv64-sysroot" path="5-repository/riscv64-sysroot"/>
+</manifest>

@@ -6,4 +6,7 @@
   <project name="solve" path="solve" remote="sinew-mocap"/>
   <project name="V-Sekai-fire/repository-riscv64-sysroot" path="riscv64-sysroot"/>
   <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="cloth-fit-guest"/>
+  <project name="V-Sekai-fire/contract-guest-runtime" path="guest-runtime"/>
+  <project name="V-Sekai-fire/contract-ggml-rd" path="ggml-rd"/>
+  <project name="V-Sekai-fire/contract-guest-common" path="guest-common"/>
 </manifest>

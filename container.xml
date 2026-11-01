@@ -2,6 +2,7 @@
 <manifest>
   <include name="base.xml"/>
   <remote name="sinew-mocap" fetch="https://github.com/sinew-mocap"/>
+  <remote name="artem-ogre" fetch="https://github.com/artem-ogre"/>
   <project name="V-Sekai-fire/service-fabric-runtime" path="runtime"/>
   <project name="solve" path="solve" remote="sinew-mocap"/>
   <project name="V-Sekai-fire/repository-riscv64-sysroot" path="riscv64-sysroot"/>
@@ -11,4 +12,5 @@
   <project name="V-Sekai-fire/contract-guest-common" path="guest-common"/>
   <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="robust-weight-transfer"/>
   <project name="V-Sekai-fire/CoACD" path="coacd"/>
+  <project name="CDT" path="coacd/3rd/cdt" remote="artem-ogre" revision="cf4df316fb8902724dc67b978ff0a89f72d2aa1d"/>
 </manifest>

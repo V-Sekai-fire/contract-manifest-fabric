@@ -9,4 +9,5 @@
   <project name="V-Sekai-fire/contract-guest-runtime" path="guest-runtime"/>
   <project name="V-Sekai-fire/contract-ggml-rd" path="ggml-rd"/>
   <project name="V-Sekai-fire/contract-guest-common" path="guest-common"/>
+  <project name="V-Sekai-fire/godot-robust-skin-weights-transfer" path="robust-weight-transfer"/>
 </manifest>

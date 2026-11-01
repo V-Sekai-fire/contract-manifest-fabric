@@ -11,6 +11,7 @@
   <project name="V-Sekai-fire/contract-ggml-rd" path="ggml-rd"/>
   <project name="V-Sekai-fire/contract-guest-common" path="guest-common"/>
   <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="robust-weight-transfer"/>
+  <project name="V-Sekai-fire/interactor-usd-guest" path="usd-guest"/>
   <project name="V-Sekai-fire/CoACD" path="coacd"/>
   <project name="CDT" path="coacd/3rd/cdt" remote="artem-ogre" revision="cf4df316fb8902724dc67b978ff0a89f72d2aa1d"/>
 </manifest>

@@ -13,6 +13,8 @@
   <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="robust-weight-transfer"/>
   <project name="V-Sekai-fire/interactor-usd-guest" path="usd-guest"/>
   <project name="V-Sekai-fire/interactor-garment-proxy" path="garment-proxy"/>
+  <project name="V-Sekai-fire/interactor-lean-guest" path="lean-guest"/>
+  <project name="V-Sekai-fire/interactor-taskweft-persona" path="taskweft-persona"/>
   <project name="V-Sekai-fire/CoACD" path="coacd"/>
   <project name="CDT" path="coacd/3rd/cdt" remote="artem-ogre" revision="cf4df316fb8902724dc67b978ff0a89f72d2aa1d"/>
 </manifest>

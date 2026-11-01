@@ -4,4 +4,5 @@
   <remote name="sinew-mocap" fetch="https://github.com/sinew-mocap"/>
   <project name="V-Sekai-fire/service-fabric-runtime" path="runtime"/>
   <project name="solve" path="solve" remote="sinew-mocap"/>
+  <project name="V-Sekai-fire/repository-riscv64-sysroot" path="riscv64-sysroot"/>
 </manifest>

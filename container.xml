@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base.xml"/>
+  <remote name="sinew-mocap" fetch="https://github.com/sinew-mocap"/>
   <project name="V-Sekai-fire/service-fabric-runtime" path="runtime"/>
+  <project name="solve" path="solve" remote="sinew-mocap"/>
 </manifest>

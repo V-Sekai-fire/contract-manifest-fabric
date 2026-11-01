@@ -10,4 +10,5 @@
   <project name="V-Sekai-fire/contract-ggml-rd" path="ggml-rd"/>
   <project name="V-Sekai-fire/contract-guest-common" path="guest-common"/>
   <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="robust-weight-transfer"/>
+  <project name="V-Sekai-fire/CoACD" path="coacd"/>
 </manifest>

@@ -2,6 +2,6 @@
 <manifest>
   <remote name="origin" fetch=".."/>
   <default remote="origin" revision="main" sync-j="4"/>
-  <project name="V-Sekai-fire/contract-zone-backend" path="backend"/>
-  <project name="V-Sekai-fire/entities-assembly" path="assembly"/>
+  <project name="V-Sekai-fire/contract-zone-backend" path="ports/backend"/>
+  <project name="V-Sekai-fire/entities-assembly" path="domain/assembly"/>
 </manifest>

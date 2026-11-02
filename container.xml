@@ -3,21 +3,21 @@
   <include name="base.xml"/>
   <remote name="sinew-mocap" fetch="https://github.com/sinew-mocap"/>
   <remote name="artem-ogre" fetch="https://github.com/artem-ogre"/>
-  <project name="V-Sekai-fire/service-fabric-runtime" path="runtime"/>
-  <project name="solve" path="solve" remote="sinew-mocap"/>
-  <project name="V-Sekai-fire/entities-assembly" path="entities-assembly"/>
-  <project name="V-Sekai-fire/repository-riscv64-sysroot" path="riscv64-sysroot"/>
-  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="cloth-fit-guest"/>
-  <project name="V-Sekai-fire/contract-guest-runtime" path="guest-runtime"/>
-  <project name="V-Sekai-fire/contract-ggml-rd" path="ggml-rd"/>
-  <project name="V-Sekai-fire/contract-guest-common" path="guest-common"/>
-  <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="robust-weight-transfer"/>
-  <project name="V-Sekai-fire/interactor-lean-guest" path="lean-guest"/>
-  <project name="V-Sekai-fire/interactor-taskweft-persona" path="taskweft-persona"/>
+  <project name="V-Sekai-fire/service-fabric-runtime" path="adapters/runtime"/>
+  <project name="solve" path="adapters/third-party/solve" remote="sinew-mocap"/>
+  <project name="V-Sekai-fire/entities-assembly" path="domain/entities-assembly"/>
+  <project name="V-Sekai-fire/repository-riscv64-sysroot" path="adapters/riscv64-sysroot"/>
+  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="application/cloth-fit-guest"/>
+  <project name="V-Sekai-fire/contract-guest-runtime" path="ports/guest-runtime"/>
+  <project name="V-Sekai-fire/contract-ggml-rd" path="ports/ggml-rd"/>
+  <project name="V-Sekai-fire/contract-guest-common" path="ports/guest-common"/>
+  <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="domain/robust-weight-transfer"/>
+  <project name="V-Sekai-fire/interactor-lean-guest" path="application/lean-guest"/>
+  <project name="V-Sekai-fire/interactor-taskweft-persona" path="application/taskweft-persona"/>
   <project name="V-Sekai-fire/dot-hermes" path="dot-hermes">
     <linkfile src="." dest=".hermes"/>
     <linkfile src="." dest=".claude"/>
   </project>
-  <project name="V-Sekai-fire/CoACD" path="coacd"/>
-  <project name="CDT" path="coacd/3rd/cdt" remote="artem-ogre" revision="cf4df316fb8902724dc67b978ff0a89f72d2aa1d"/>
+  <project name="V-Sekai-fire/CoACD" path="adapters/third-party/coacd"/>
+  <project name="CDT" path="adapters/third-party/coacd/3rd/cdt" remote="artem-ogre" revision="cf4df316fb8902724dc67b978ff0a89f72d2aa1d"/>
 </manifest>

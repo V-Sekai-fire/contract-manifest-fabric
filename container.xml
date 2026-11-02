@@ -5,7 +5,6 @@
   <remote name="artem-ogre" fetch="https://github.com/artem-ogre"/>
   <project name="V-Sekai-fire/service-fabric-runtime" path="adapters/runtime"/>
   <project name="solve" path="adapters/third-party/solve" remote="sinew-mocap"/>
-  <project name="V-Sekai-fire/entities-assembly" path="domain/entities-assembly"/>
   <project name="V-Sekai-fire/repository-riscv64-sysroot" path="adapters/riscv64-sysroot"/>
   <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="application/cloth-fit-guest"/>
   <project name="V-Sekai-fire/contract-guest-runtime" path="ports/guest-runtime"/>

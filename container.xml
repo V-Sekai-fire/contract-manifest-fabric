@@ -18,5 +18,7 @@
     <linkfile src="." dest=".claude"/>
   </project>
   <project name="V-Sekai-fire/CoACD" path="adapters/third-party/coacd"/>
+  <project name="V-Sekai-fire/musclemimic" path="adapters/third-party/musclemimic"/>
+  <project name="V-Sekai-fire/musclemimic_models" path="adapters/third-party/musclemimic_models"/>
   <project name="CDT" path="adapters/third-party/coacd/3rd/cdt" remote="artem-ogre" revision="cf4df316fb8902724dc67b978ff0a89f72d2aa1d"/>
 </manifest>

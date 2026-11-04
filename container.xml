@@ -17,6 +17,7 @@
   <project name="V-Sekai-fire/interactor-persona-frontier" path="application/persona-frontier"/>
   <project name="V-Sekai-fire/interactor-charuco-viewer" path="application/charuco-viewer"/>
   <project name="V-Sekai-fire/interactor-charuco-clip" path="application/charuco-clip"/>
+  <project name="V-Sekai-fire/service-godot-build.git" path="adapters/service-godot-build"/>
   <project name="V-Sekai-fire/dot-hermes" path="dot-hermes">
     <linkfile src="." dest=".hermes"/>
     <linkfile src="." dest=".claude"/>

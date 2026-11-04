@@ -13,6 +13,10 @@
   <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="domain/robust-weight-transfer"/>
   <project name="V-Sekai-fire/interactor-lean-guest" path="application/lean-guest"/>
   <project name="V-Sekai-fire/interactor-taskweft-persona" path="application/taskweft-persona"/>
+  <project name="V-Sekai-fire/entities-model-explorer" path="application/model-explorer"/>
+  <project name="V-Sekai-fire/interactor-persona-frontier" path="application/persona-frontier"/>
+  <project name="V-Sekai-fire/interactor-charuco-viewer" path="application/charuco-viewer"/>
+  <project name="V-Sekai-fire/interactor-charuco-clip" path="application/charuco-clip"/>
   <project name="V-Sekai-fire/dot-hermes" path="dot-hermes">
     <linkfile src="." dest=".hermes"/>
     <linkfile src="." dest=".claude"/>

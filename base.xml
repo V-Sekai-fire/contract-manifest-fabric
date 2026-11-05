@@ -3,7 +3,7 @@
   <remote name="origin" fetch=".."/>
   <default remote="origin" revision="main" sync-j="4"/>
   <project name="V-Sekai-fire/contract-zone-backend" path="ports/backend"/>
-  <project name="V-Sekai-fire/entities-zone" path="ports/frontend" revision="870268b512b713f28d8628ab63d9316cdaf55cfd"/>
+  <project name="V-Sekai-fire/entities-zone" path="ports/frontend" revision="f5a9c6540c270665d54540073888d5009f826b07"/>
   <project name="V-Sekai-fire/entities-godot" path="ports/godot" revision="main"/>
   <project name="V-Sekai-fire/entities-assembly" path="domain/assembly"/>
 </manifest>

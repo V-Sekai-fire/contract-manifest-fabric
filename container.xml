@@ -6,13 +6,13 @@
   <project name="V-Sekai-fire/service-fabric-runtime" path="adapters/runtime"/>
   <project name="solve" path="adapters/third-party/solve" remote="sinew-mocap"/>
   <project name="V-Sekai-fire/repository-riscv64-sysroot" path="adapters/riscv64-sysroot"/>
-  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="application/cloth-fit-guest"/>
+  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="ports/cloth-fit-guest"/>
   <project name="V-Sekai-fire/contract-guest-runtime" path="ports/guest-runtime"/>
   <project name="V-Sekai-fire/contract-ggml-rd" path="ports/ggml-rd"/>
   <project name="V-Sekai-fire/contract-guest-common" path="ports/guest-common"/>
   <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="domain/robust-weight-transfer"/>
-  <project name="V-Sekai-fire/interactor-lean-guest" path="application/lean-guest"/>
-  <project name="V-Sekai-fire/interactor-taskweft-persona" path="application/taskweft-persona"/>
+  <project name="V-Sekai-fire/interactor-lean-guest" path="ports/lean-guest"/>
+  <project name="V-Sekai-fire/interactor-taskweft-persona" path="ports/taskweft-persona"/>
   <project name="V-Sekai-fire/entities-model-explorer" path="application/model-explorer"/>
   <project name="V-Sekai-fire/interactor-persona-frontier" path="application/persona-frontier"/>
   <project name="V-Sekai-fire/interactor-charuco-viewer" path="application/charuco-viewer"/>

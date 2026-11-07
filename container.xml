@@ -24,5 +24,5 @@
   </project>
   <project name="V-Sekai-fire/musclemimic" path="adapters/third-party/musclemimic"/>
   <project name="V-Sekai-fire/musclemimic_models" path="adapters/third-party/musclemimic_models"/>
-  <project name="V-Sekai-fire/iouring-feed-server-lean" path="adapters/iouring-feed-server-lean"/>
+  <project name="V-Sekai-fire/transport-iouring-feed-server" path="adapters/iouring-feed-server"/>
 </manifest>

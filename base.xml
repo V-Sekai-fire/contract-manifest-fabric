@@ -5,6 +5,6 @@
   <project name="V-Sekai-fire/contract-zone-backend" path="ports/backend" revision="main"/>
   <project name="V-Sekai-fire/entities-zone" path="ports/frontend" revision="f5a9c6540c270665d54540073888d5009f826b07"/>
   <project name="V-Sekai-fire/entities-godot" path="ports/godot" revision="main"/>
-  <project name="V-Sekai-fire/entities-zone" path="ports/zone" revision="v0.0.0-20261108202140-679bf7601682"/>
+  <project name="V-Sekai-fire/entities-zone" path="ports/zone" tag="v0.0.0-20261108202140-679bf7601682"/>
   <project name="V-Sekai-fire/entities-assembly" path="domain/assembly"  revision="main"/>
 </manifest>

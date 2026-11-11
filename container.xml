@@ -18,7 +18,7 @@
   <project name="V-Sekai-fire/interactor-charuco-viewer" path="application/charuco-viewer" revision="main"/>
   <project name="V-Sekai-fire/interactor-charuco-clip" path="application/charuco-clip" revision="main"/>
   <project name="V-Sekai-fire/service-godot-build.git" path="adapters/service-godot-build" revision="main"/>
-  <project name="V-Sekai-fire/dot-hermes" path="dot-hermes" revision="main"/>
+  <project name="V-Sekai-fire/dot-hermes" path="dot-hermes" revision="main">
     <linkfile src="." dest=".hermes"/>
     <linkfile src="." dest=".claude"/>
   </project>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base.xml"/>
-  <remote name="sinew-mocap" fetch="https://github.com/sinew-mocap"/>
-  <remote name="artem-ogre" fetch="https://github.com/artem-ogre"/>
-  <project name="V-Sekai-fire/service-fabric-runtime" path="adapters/runtime"/>
-  <project name="solve" path="adapters/third-party/solve" remote="sinew-mocap"/>
-  <project name="V-Sekai-fire/repository-riscv64-sysroot" path="adapters/riscv64-sysroot"/>
-  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="ports/cloth-fit-guest"/>
-  <project name="V-Sekai-fire/contract-guest-runtime" path="ports/guest-runtime"/>
-  <project name="V-Sekai-fire/contract-ggml-rd" path="ports/ggml-rd"/>
-  <project name="V-Sekai-fire/contract-guest-common" path="ports/guest-common"/>
-  <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="domain/robust-weight-transfer"/>
-  <project name="V-Sekai-fire/interactor-lean-guest" path="ports/lean-guest"/>
-  <project name="V-Sekai-fire/interactor-taskweft-persona" path="ports/taskweft-persona"/>
-  <project name="V-Sekai-fire/entities-model-explorer" path="application/model-explorer"/>
-  <project name="V-Sekai-fire/interactor-persona-frontier" path="application/persona-frontier"/>
-  <project name="V-Sekai-fire/interactor-charuco-viewer" path="application/charuco-viewer"/>
-  <project name="V-Sekai-fire/interactor-charuco-clip" path="application/charuco-clip"/>
-  <project name="V-Sekai-fire/service-godot-build.git" path="adapters/service-godot-build"/>
-  <project name="V-Sekai-fire/dot-hermes" path="dot-hermes">
+  <remote name="sinew-mocap" fetch="https://github.com/sinew-mocap" revision="main"/>
+  <remote name="artem-ogre" fetch="https://github.com/artem-ogre" revision="main"/>
+  <project name="V-Sekai-fire/service-fabric-runtime" path="adapters/runtime" revision="main"/>
+  <project name="solve" path="adapters/third-party/solve" remote="sinew-mocap" revision="main"/>
+  <project name="V-Sekai-fire/repository-riscv64-sysroot" path="adapters/riscv64-sysroot" revision="main"/>
+  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="ports/cloth-fit-guest" revision="main"/>
+  <project name="V-Sekai-fire/contract-guest-runtime" path="ports/guest-runtime" revision="main"/>
+  <project name="V-Sekai-fire/contract-ggml-rd" path="ports/ggml-rd" revision="main"/>
+  <project name="V-Sekai-fire/contract-guest-common" path="ports/guest-common" revision="main"/>
+  <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="domain/robust-weight-transfer" revision="main"/>
+  <project name="V-Sekai-fire/interactor-lean-guest" path="ports/lean-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-taskweft-persona" path="ports/taskweft-persona" revision="main"/>
+  <project name="V-Sekai-fire/entities-model-explorer" path="application/model-explorer" revision="main"/>
+  <project name="V-Sekai-fire/interactor-persona-frontier" path="application/persona-frontier" revision="main"/>
+  <project name="V-Sekai-fire/interactor-charuco-viewer" path="application/charuco-viewer" revision="main"/>
+  <project name="V-Sekai-fire/interactor-charuco-clip" path="application/charuco-clip" revision="main"/>
+  <project name="V-Sekai-fire/service-godot-build.git" path="adapters/service-godot-build" revision="main"/>
+  <project name="V-Sekai-fire/dot-hermes" path="dot-hermes" revision="main"/>
     <linkfile src="." dest=".hermes"/>
     <linkfile src="." dest=".claude"/>
   </project>
-  <project name="V-Sekai-fire/musclemimic" path="adapters/third-party/musclemimic"/>
-  <project name="V-Sekai-fire/musclemimic_models" path="adapters/third-party/musclemimic_models"/>
-  <project name="V-Sekai-fire/transport-iouring-feed-server" path="adapters/iouring-feed-server"/>
+  <project name="V-Sekai-fire/musclemimic" path="adapters/third-party/musclemimic" revision="main"/>
+  <project name="V-Sekai-fire/musclemimic_models" path="adapters/third-party/musclemimic_models" revision="main"/>
+  <project name="V-Sekai-fire/transport-iouring-feed-server" path="adapters/iouring-feed-server" revision="main"/>
 </manifest>

@@ -14,6 +14,8 @@
   <project name="V-Sekai-fire/interactor-lean-guest" path="3-interactor/lean-guest" revision="main"/>
   <project name="V-Sekai-fire/interactor-taskweft-persona" path="3-interactor/taskweft-persona" revision="main"/>
   <project name="V-Sekai-fire/entities-model-explorer" path="4-entities/model-explorer" revision="main"/>
+  <project name="V-Sekai-fire/interactor-motion-matching-guest" path="3-interactor/motion-matching-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-fabric-zone" path="3-interactor/fabric-zone" revision="main"/>
   <project name="V-Sekai-fire/interactor-persona-frontier" path="3-interactor/persona-frontier" revision="main"/>
   <project name="V-Sekai-fire/interactor-charuco-viewer" path="3-interactor/charuco-viewer" revision="main"/>
   <project name="V-Sekai-fire/interactor-charuco-clip" path="3-interactor/charuco-clip" revision="main"/>

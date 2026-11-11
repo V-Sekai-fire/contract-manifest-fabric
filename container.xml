@@ -6,13 +6,13 @@
   <project name="V-Sekai-fire/service-fabric-runtime" path="adapters/runtime" revision="main"/>
   <project name="solve" path="adapters/third-party/solve" remote="sinew-mocap" revision="main"/>
   <project name="V-Sekai-fire/repository-riscv64-sysroot" path="adapters/riscv64-sysroot" revision="main"/>
-  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="ports/cloth-fit-guest" revision="main"/>
-  <project name="V-Sekai-fire/contract-guest-runtime" path="ports/guest-runtime" revision="main"/>
-  <project name="V-Sekai-fire/contract-ggml-rd" path="ports/ggml-rd" revision="main"/>
-  <project name="V-Sekai-fire/contract-guest-common" path="ports/guest-common" revision="main"/>
+  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="repositories/cloth-fit-guest" revision="main"/>
+  <project name="V-Sekai-fire/contract-guest-runtime" path="repositories/guest-runtime" revision="main"/>
+  <project name="V-Sekai-fire/contract-ggml-rd" path="repositories/ggml-rd" revision="main"/>
+  <project name="V-Sekai-fire/contract-guest-common" path="repositories/guest-common" revision="main"/>
   <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="domain/robust-weight-transfer" revision="main"/>
-  <project name="V-Sekai-fire/interactor-lean-guest" path="ports/lean-guest" revision="main"/>
-  <project name="V-Sekai-fire/interactor-taskweft-persona" path="ports/taskweft-persona" revision="main"/>
+  <project name="V-Sekai-fire/interactor-lean-guest" path="repositories/lean-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-taskweft-persona" path="repositories/taskweft-persona" revision="main"/>
   <project name="V-Sekai-fire/entities-model-explorer" path="application/model-explorer" revision="main"/>
   <project name="V-Sekai-fire/interactor-persona-frontier" path="application/persona-frontier" revision="main"/>
   <project name="V-Sekai-fire/interactor-charuco-viewer" path="application/charuco-viewer" revision="main"/>

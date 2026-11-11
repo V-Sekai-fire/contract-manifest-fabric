@@ -3,26 +3,26 @@
   <include name="base.xml"/>
   <remote name="sinew-mocap" fetch="https://github.com/sinew-mocap" revision="main"/>
   <remote name="artem-ogre" fetch="https://github.com/artem-ogre" revision="main"/>
-  <project name="V-Sekai-fire/service-fabric-runtime" path="adapters/runtime" revision="main"/>
-  <project name="solve" path="adapters/third-party/solve" remote="sinew-mocap" revision="main"/>
-  <project name="V-Sekai-fire/repository-riscv64-sysroot" path="adapters/riscv64-sysroot" revision="main"/>
-  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="repositories/cloth-fit-guest" revision="main"/>
-  <project name="V-Sekai-fire/contract-guest-runtime" path="repositories/guest-runtime" revision="main"/>
-  <project name="V-Sekai-fire/contract-ggml-rd" path="repositories/ggml-rd" revision="main"/>
-  <project name="V-Sekai-fire/contract-guest-common" path="repositories/guest-common" revision="main"/>
-  <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="domain/robust-weight-transfer" revision="main"/>
-  <project name="V-Sekai-fire/interactor-lean-guest" path="repositories/lean-guest" revision="main"/>
-  <project name="V-Sekai-fire/interactor-taskweft-persona" path="repositories/taskweft-persona" revision="main"/>
-  <project name="V-Sekai-fire/entities-model-explorer" path="application/model-explorer" revision="main"/>
-  <project name="V-Sekai-fire/interactor-persona-frontier" path="application/persona-frontier" revision="main"/>
-  <project name="V-Sekai-fire/interactor-charuco-viewer" path="application/charuco-viewer" revision="main"/>
-  <project name="V-Sekai-fire/interactor-charuco-clip" path="application/charuco-clip" revision="main"/>
-  <project name="V-Sekai-fire/service-godot-build.git" path="adapters/service-godot-build" revision="main"/>
-  <project name="V-Sekai-fire/dot-hermes" path="dot-hermes" revision="main">
-    <linkfile src="." dest=".hermes"/>
+  <project name="V-Sekai-fire/service-fabric-runtime" path="7-service/fabric-runtime" revision="main"/>
+  <project name="solve" path="3-interactor/sinew-solve" remote="sinew-mocap" revision="main"/>
+  <project name="V-Sekai-fire/repository-riscv64-sysroot" path="5-repository/riscv64-sysroot" revision="main"/>
+  <project name="V-Sekai-fire/interactor-cloth-fit-guest" path="3-interactor/cloth-fit-guest" revision="main"/>
+  <project name="V-Sekai-fire/contract-guest-runtime" path="2-contract/guest-runtime" revision="main"/>
+  <project name="V-Sekai-fire/contract-ggml-rd" path="2-contract/ggml-rd" revision="main"/>
+  <project name="V-Sekai-fire/contract-guest-common" path="2-contract/guest-common" revision="main"/>
+  <project name="V-Sekai-fire/entities-godot-sandbox-robust-weight-transfer" path="4-entities/godot-sandbox-robust-weight-transfer" revision="main"/>
+  <project name="V-Sekai-fire/interactor-lean-guest" path="3-interactor/lean-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-taskweft-persona" path="3-interactor/taskweft-persona" revision="main"/>
+  <project name="V-Sekai-fire/entities-model-explorer" path="4-entities/model-explorer" revision="main"/>
+  <project name="V-Sekai-fire/interactor-persona-frontier" path="3-interactor/persona-frontier" revision="main"/>
+  <project name="V-Sekai-fire/interactor-charuco-viewer" path="3-interactor/charuco-viewer" revision="main"/>
+  <project name="V-Sekai-fire/interactor-charuco-clip" path="3-interactor/charuco-clip" revision="main"/>
+  <project name="V-Sekai-fire/service-godot-build.git" path="7-service/godot-build" revision="main"/>
+  <project name="V-Sekai-fire/dot-hermes" path=".hermes" revision="main">
     <linkfile src="." dest=".claude"/>
   </project>
-  <project name="V-Sekai-fire/musclemimic" path="adapters/third-party/musclemimic" revision="main"/>
-  <project name="V-Sekai-fire/musclemimic_models" path="adapters/third-party/musclemimic_models" revision="main"/>
-  <project name="V-Sekai-fire/transport-iouring-feed-server" path="adapters/iouring-feed-server" revision="main"/>
+  <project name="V-Sekai-fire/musclemimic" path="3-interactor/musclemimic" revision="main"/>
+  <project name="V-Sekai-fire/musclemimic_models" path="5-repository/musclemimic_models" revision="main"/>
+  <project name="V-Sekai-fire/transport-iouring-feed-server" path="1-transport/iouring-feed-server" revision="main"/>
+  <project name="V-Sekai-fire/rfds" path="2-contract/rfds" revision="main"/>
 </manifest>

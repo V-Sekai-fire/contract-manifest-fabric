@@ -20,6 +20,8 @@
   <project name="V-Sekai-fire/service-godot-build.git" path="7-service/godot-build" revision="main"/>
   <project name="V-Sekai-fire/dot-hermes" path="dot-hermes" revision="main">
     <linkfile src="." dest=".hermes"/>
+    <linkfile src="pixi.toml" dest="pixi.toml"/>
+    <linkfile src="pixi.lock" dest="pixi.lock"/>
   </project>
   <project name="V-Sekai-fire/musclemimic" path="3-interactor/musclemimic" revision="main"/>
   <project name="V-Sekai-fire/musclemimic_models" path="5-repository/musclemimic_models" revision="main"/>

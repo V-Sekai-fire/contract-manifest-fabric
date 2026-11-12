@@ -18,7 +18,7 @@
     <linkfile src="pixi.toml" dest="pixi.toml"/>
     <linkfile src="pixi.lock" dest="pixi.lock"/>
   </project>
-  <project name="V-Sekai-fire/musclemimic" path="3-interactor/musclemimic" revision="5afb42bc9985bbe262f4b9a4df1f9c7c69bd0023"/>
+  <project name="V-Sekai-fire/musclemimic" path="3-interactor/musclemimic" revision="6f645877f8b32123ee11e0f875a853c55823225e"/>
   <project name="V-Sekai-fire/musclemimic_models" path="5-repository/musclemimic_models" revision="main"/>
   <project name="V-Sekai-fire/transport-iouring-feed-server" path="1-transport/iouring-feed-server" revision="main"/>
   <project name="V-Sekai-fire/rfds" path="2-contract/rfds" revision="main"/>

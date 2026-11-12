@@ -7,7 +7,7 @@
   <project name="V-Sekai-fire/contract-guest-runtime" path="2-contract/guest-runtime" revision="main"/>
   <project name="V-Sekai-fire/contract-ggml-rd" path="2-contract/ggml-rd" revision="main"/>
   <project name="V-Sekai-fire/contract-guest-common" path="2-contract/guest-common" revision="main"/>
-  <project name="V-Sekai-fire/entities-model-explorer" path="4-entities/model-explorer" revision="main"/>
+  <project name="V-Sekai/entities-model-explorer" path="4-entities/model-explorer" revision="main"/>
   <project name="V-Sekai-fire/interactor-motion-matching-guest" path="3-interactor/motion-matching-guest" revision="main"/>
   <project name="V-Sekai-fire/interactor-fabric-zone" path="3-interactor/fabric-zone" revision="main"/>
   <project name="V-Sekai-fire/interactor-usd-guest" path="3-interactor/usd-guest" revision="main"/>

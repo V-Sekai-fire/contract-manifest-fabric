@@ -12,3 +12,6 @@ Google `repo` manifests for the fabric stack. Each variant checks out a differen
     repo sync
 
 Rows follow branches (`main`), not SHA pins.
+
+One exception: `4-entities/zone` (`V-Sekai-fire/entities-zone`) stays on its tag,
+because that repo's `main` is a separate two-commit upload history, not the engine code.

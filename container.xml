@@ -39,5 +39,6 @@
   <project name="V-Sekai-fire/interactor-taskweft-persona" path="3-interactor/taskweft-persona" revision="main"/>
   <project name="V-Sekai-fire/contract-editscore-mojo" path="2-contract/editscore-mojo" revision="main"/>
   <project name="V-Sekai-fire/3d-character-poseswap" path="6-datasource/character-poseswap" revision="main"/>
+  <project name="V-Sekai-fire/interactor-lean-guest" path="3-interactor/lean-guest" revision="main"/>
   <project name="V-Sekai-fire/rfds" path="2-contract/rfds" revision="main"/>
 </manifest>

@@ -34,5 +34,10 @@
   <project name="V-Sekai-fire/musclemimic_models" path="5-repository/musclemimic_models" revision="main"/>
   <project name="V-Sekai-fire/transport-iouring-feed-server" path="1-transport/iouring-feed-server" revision="main"/>
   <project name="V-Sekai-fire/transport-zone-relay" path="1-transport/zone-relay" revision="main"/>
+  <project name="V-Sekai-fire/interactor-anny-fit-guest" path="3-interactor/anny-fit-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-omnigen2-guest" path="3-interactor/omnigen2-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-taskweft-persona" path="3-interactor/taskweft-persona" revision="main"/>
+  <project name="V-Sekai-fire/contract-editscore-mojo" path="2-contract/editscore-mojo" revision="main"/>
+  <project name="V-Sekai-fire/3d-character-poseswap" path="6-datasource/character-poseswap" revision="main"/>
   <project name="V-Sekai-fire/rfds" path="2-contract/rfds" revision="main"/>
 </manifest>

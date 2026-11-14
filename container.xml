@@ -12,6 +12,13 @@
   <project name="V-Sekai/entities-obstacle-course" path="4-entities/obstacle-course" revision="main"/>
   <project name="V-Sekai-fire/entities-muscle-course" path="4-entities/muscle-course" revision="main"/>
   <project name="V-Sekai-fire/interactor-motion-matching-guest" path="3-interactor/motion-matching-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-packets-guest" path="3-interactor/packets-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-zone-router-guest" path="3-interactor/zone-router-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-observer-guest" path="3-interactor/observer-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-curve-guest" path="3-interactor/curve-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-replica-guest" path="3-interactor/replica-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-anny-follow-guest" path="3-interactor/anny-follow-guest" revision="main"/>
+  <project name="V-Sekai-fire/interactor-presence-gates" path="3-interactor/presence-gates" revision="main"/>
   <project name="V-Sekai-fire/interactor-fabric-zone" path="3-interactor/fabric-zone" revision="main"/>
   <project name="V-Sekai-fire/interactor-usd-guest" path="3-interactor/usd-guest" revision="main"/>
   <project name="V-Sekai-fire/interactor-garment-proxy" path="3-interactor/garment-proxy" revision="main"/>
@@ -24,5 +31,6 @@
   <project name="V-Sekai-fire/musclemimic" path="3-interactor/musclemimic" revision="main"/>
   <project name="V-Sekai-fire/musclemimic_models" path="5-repository/musclemimic_models" revision="main"/>
   <project name="V-Sekai-fire/transport-iouring-feed-server" path="1-transport/iouring-feed-server" revision="main"/>
+  <project name="V-Sekai-fire/transport-zone-relay" path="1-transport/zone-relay" revision="main"/>
   <project name="V-Sekai-fire/rfds" path="2-contract/rfds" revision="main"/>
 </manifest>

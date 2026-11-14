@@ -8,6 +8,7 @@
   <project name="V-Sekai-fire/contract-ggml-rd" path="2-contract/ggml-rd" revision="main"/>
   <project name="V-Sekai-fire/contract-guest-common" path="2-contract/guest-common" revision="main"/>
   <project name="V-Sekai-fire/contract-spatial-oracle" path="2-contract/spatial-oracle" revision="main"/>
+  <project name="V-Sekai-fire/contract-witness-mojo" path="2-contract/witness-mojo" revision="main"/>
   <project name="V-Sekai/entities-model-explorer" path="4-entities/model-explorer" revision="main"/>
   <project name="V-Sekai/entities-obstacle-course" path="4-entities/obstacle-course" revision="main"/>
   <project name="V-Sekai-fire/entities-muscle-course" path="4-entities/muscle-course" revision="main"/>
@@ -15,6 +16,7 @@
   <project name="V-Sekai-fire/interactor-fabric-zone" path="3-interactor/fabric-zone" revision="main"/>
   <project name="V-Sekai-fire/interactor-usd-guest" path="3-interactor/usd-guest" revision="main"/>
   <project name="V-Sekai-fire/interactor-garment-proxy" path="3-interactor/garment-proxy" revision="main"/>
+  <project name="V-Sekai-fire/interactor-mojo-guest" path="3-interactor/mojo-guest" revision="main"/>
   <project name="V-Sekai-fire/service-godot-build.git" path="7-service/godot-build" revision="main"/>
   <project name="V-Sekai-fire/dot-hermes" path="dot-hermes" revision="main">
     <linkfile src="." dest=".hermes"/>
